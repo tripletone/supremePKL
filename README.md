@@ -31,7 +31,7 @@ website structure
 >>locations
 
 
-# revised planning
+# revised planning following standard industry practice
 # supremePKL
 
 **supremePKL** is a responsive web application built for a fictional pickleball court facility. This project showcases front-end development, interactive features using JavaScript, and back-end data handling through an API-driven event calendar. It is designed to demonstrate full-stack web development principles while providing a user-friendly experience.
