@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
             <div id="header-logo">
-                <img src="/images/supremePklLogo.png" alt="Supreme PKL Logo" width="175px" height="auto">
+                <img src="/images/supremePklLogo.png" alt="Supreme PKL Logo">
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -21,7 +21,7 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-        <div class="hero"><img src="/images/low-angle-man-playing-paddle-tennis.jpg" alt="Man playing pickleball" width="500px"></div> <!--https://www.freepik.com/free-photo/low-angle-man-playing-paddle-tennis_27314300.htm#fromView=search&page=1&position=0&uuid=85ba009d-a983-49d0-9585-8ab28e1b11db&query=pickleball-->
+        <div class="hero"><img src="/images/low-angle-man-playing-paddle-tennis.jpg" alt="Man playing pickleball"></div> <!--https://www.freepik.com/free-photo/low-angle-man-playing-paddle-tennis_27314300.htm#fromView=search&page=1&position=0&uuid=85ba009d-a983-49d0-9585-8ab28e1b11db&query=pickleball-->
         <h1>Connecting players through quality courts, competitive events, and community-driven play.</h1>
     </header>
 
@@ -64,32 +64,37 @@
             <h2>Join our newsletter</h2>
             <form>
                 <label for="newsletter-email">Email:</label>
-                <input type="email">
+                <input type="email" id="newsletter-email" name="newsletter-email">
                 <button type="submit">Submit</button>
             </form>
         </section>
         <section id="reviews">
             <h2>Customer Testimonials</h2>
             <div class="review">
-                <!--Add reviews here-->
+                <!--Add reviews here, use an API to display google reviews-->
             </div>
         </section>
     </main>
     <footer>
         <div class="footer-columns">
             <div id="column1">
-                <p>Contact Info</p>
-                <p>Company Email</p>
-                <p>Company Phone Number</p>
+                <address>
+                    <p>123 Pickle St, Austin, TX</p>
+                    <p>Email: contact@supremepkl.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                </address>
             </div>
             <div id="column2">
-                <p>Social Links</p>
+                <p>Follow Us!</p>
+                <a href="https://www.vecteezy.com/vector-art/18910795-instagram-mobile-app-logo-instagram-app-icon-ig-app-free-vector" target="_blank" rel="noopener noreferrer"><img src="images/vecteezy_instagram-mobile-app-logo-instagram-app-icon-ig-app-free_18910795.jpg" alt="Instagram logo" class="social-icon"></a>
+                <a href="https://www.vecteezy.com/vector-art/18757863-facebook-logo-vector-facebook-icon-free-vector" target="_blank" rel="noopener noreferrer"><img src="images/vecteezy_facebook-logo-vector-facebook-icon-free-vector_18757863.jpg" alt="Facebook logo" class="social-icon"></a>
+                <a href="https://www.vecteezy.com/png/18930585-linkedin-logo-png-linkedin-icon-transparent-png" target="_blank" rel="noopener noreferrer"><img src="images/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930585.png" alt="Linkedin logo" class="social-icon"></a>
             </div>
             <div id="column3">
-                <p>Hours of Operation</p>
-            </div>
-            <div id="column4">
-                <p>Location</p>
+                <p>Hours</p>
+                <p>Monday-Friday: 9:00am - 11:00pm</p>
+                <p>Saturday: 8:00am - 12:00am</p>
+                <p>Sunday: 8:00am - 9:00pm</p>
             </div>
         </div>
     </footer>
